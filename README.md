@@ -1,7 +1,7 @@
-MedSmart 
+MedSmart
 
 O MedSmart é um sistema voltado para gestão de saúde, permitindo que pacientes, médicos e acompanhantes controlem receitas, consultas, medicamentos, lembretes e histórico médico de forma integrada. O projeto utiliza conceitos de banco de dados relacionais, garantindo organização, rastreabilidade e segurança das informações.
-
+----------------------------------------------------------------------
 📌 Objetivo do Sistema
 
 O MedSmart tem como foco centralizar e facilitar o gerenciamento de informações de saúde, oferecendo:
@@ -15,7 +15,7 @@ Emissão de lembretes de medicação
 Armazenamento de histórico médico
 
 Acessos diferentes para pacientes, médicos e acompanhantes
-
+----------------------------------------------------------------------------------
 🧩 Principais Funcionalidades
 👤 Usuários
 
@@ -26,7 +26,7 @@ Paciente – gerencia seus dados, consultas, receitas e lembretes
 Médico – prescreve receitas, cadastra consultas e acompanha pacientes
 
 Acompanhante – pode auxiliar um paciente, com permissões controladas
-
+--------------------------------------------------------------------------
 📝 Receitas Médicas
 
 Registro de receitas vinculadas ao médico e paciente
@@ -34,13 +34,13 @@ Registro de receitas vinculadas ao médico e paciente
 Detalhamento de medicamentos, posologia, duração e frequência
 
 Controle de validade e status da receita
-
+--------------------------------------------------------------------------------
 💊 Medicamentos
 
 Cadastro de medicamentos (nome comercial, princípio ativo, dosagem etc.)
 
 Associação a itens de receita
-
+--------------------------------------------------------------------------------------------------------------------
 ⏰ Lembretes
 
 Geração automática de lembretes conforme posologia
@@ -48,17 +48,17 @@ Geração automática de lembretes conforme posologia
 Configuração de horários, dias da semana, som e vibração
 
 Opção de lembretes para paciente e acompanhante
-
+---------------------------------------------------------------------------------------------------------
 📅 Consultas
 
 Agendamento de consultas por pacientes
 
 Registros médicos por profissionais de saúde
-
+---------------------------------------------------------------------------------------------------
 📚 Histórico Médico
 
 Registro de eventos, diagnósticos, alergias, observações e gravidade
-
+----------------------------------------------------------------------------------------------------
 🔐 Controle e Auditoria
 
 Todas as ações ficam registradas em logs de atividade
@@ -66,7 +66,7 @@ Todas as ações ficam registradas em logs de atividade
 Rastreamento completo de mudanças, cadastros e atualizações
 
 Dados sensíveis protegidos
-
+----------------------------------------------------------------------------------------------------
 🗂️ Estrutura do Banco de Dados (Resumo das Tabelas)
 
 O sistema utiliza diversas tabelas para organizar suas entidades principais, incluindo:
@@ -98,7 +98,7 @@ log_atividade – rastreamento de ações
 documento – arquivos enviados (laudos, exames etc.)
 
 configuracao – parâmetros gerais do sistema
-
+----------------------------------------------------------------------------------------------------
 🔗 Relacionamentos Principais
 
 Paciente → Consulta → Médico
@@ -110,7 +110,7 @@ Receita → Itens → Lembretes
 Usuário → Histórico Médico
 
 Acompanhante → Paciente
-
+----------------------------------------------------------------------------------------------------
 🏗️ Tecnologias Envolvidas
 
 Banco de Dados Relacional
@@ -120,7 +120,7 @@ Sistema de Notificações (Lembretes)
 Possível uso de IA para leitura de receitas
 
 Aplicativo Mobile (iOS/Android como objetivo futuro)
-
+----------------------------------------------------------------------------------------------------
 📌 Considerações Técnicas
 Requisitos Não-Funcionais
 
